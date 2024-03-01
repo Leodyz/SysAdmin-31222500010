@@ -1,7 +1,8 @@
                                     WORKSHOP ADMINISTRASI JARINGAN
 
                                             Tugas 2 No 1
-
+                                            
+  ![alt text](img/directorylinux.png)
 
                                             Dosen Pengampu :
 
