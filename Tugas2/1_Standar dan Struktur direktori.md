@@ -2,7 +2,7 @@
 
                                             Tugas 2 No 1
                                             
-  ![alt text](img/directorylinux.png)
+  ![alt text](img/logo.png)
 
                                             Dosen Pengampu :
 
