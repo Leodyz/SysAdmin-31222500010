@@ -1,139 +1,134 @@
-                                    WORKSHOP ADMINISTRASI JARINGAN
+                     
+# TUGAS 2
 
-                                            Tugas 2 No 1
+# Disusun Oleh
 
-                                            ![alt text](img/directorylinux.png)
+| NAMA | NRP |
+| ---- | --- |
+| [Zahrotul Hidayah](https://github.com/zah1703)| 3122500004 |
+| [Leody Zelvon Herliansa](https://github.com/Leodyz)| 3122500010 |
+| [Adam Rasyid Nurmuhammad](https://github.com/adamrasyid01)| 3122500018 |     
 
 
-                                            Dosen Pengampu :
 
-                                    Dr. Ferry Astika Saputra,ST, M.Sc
+Berdasarkan Referensi dari [Debian Directory Structure](https://www.debianadmin.com/linux-directory-structure-overview.html)
 
-                                            Disusun Oleh:
+**DAFTAR ISI**
 
-                                Zahrotul Hidayah        (3122500004)
+- [NOMOR 1](#soal-1-struktur-direktori-pada-linux)
+- [NOMOR 2](#soal-2-marp-presentation)
+- [NOMOR 3](#soal-3-mengubah-ip-address-secara-manual)
 
-                                Leody Zelvon Herliansa  (3122500010)
 
-                                Adam Rasyid Nurmuhammad (3122500018)
+# (Soal 1) Struktur Direktori pada Linux
 
- 
-                                Politeknik Elektronika Negeri Surabaya
+**1. "/” Root**
 
-                                            Tahun Akademik
+> Struktur Direktori dimulai dengan sistem file Root “/” dan merupakan direktori root untuk seluruh struktur. Partisi di mana / (direktori root) akan berada pada sistem UNIX atau yang kompatibel dengan UNIX.
 
-                                                2023/2024
+**2. /boot**
 
+> Direktori /boot berisi file Boot loader termasuk Grub atau Lilo, Kernel, initrd dan file konfigurasi system.map
 
+**3 ./sys**
 
-Berdasarkan Referensi dari https://www.debianadmin.com/linux-directory-structure-overview.html
+>Ini berisi Kernel, Firmware dan file terkait sistem.
 
+**4 ./sbin**
 
-1.“/” Root
+>Berisi Sistem Binari yang penting dan alat Administrasi Sistem yang penting untuk operasi dan kinerja sistem
 
-Struktur Direktori dimulai dengan sistem file Root “/” dan merupakan direktori root untuk seluruh struktur. Partisi di mana / (direktori root) akan berada pada sistem UNIX atau yang kompatibel dengan UNIX.
+**5 ./bin**
 
-2./boot
+>Berisi binari penting untuk pengguna dan utilitas yang dibutuhkan dalam mode pengguna tunggal. Contoh, termasuk cat, ls, cp dll.
 
-Direktori /boot berisi file Boot loader termasuk Grub atau Lilo, Kernel, initrd dan file konfigurasi system.map
+**6 ./lib**
 
-3./sys
+>Berisi file pustaka untuk semua binari yang ada di direktori /sbin & /bin
 
-Ini berisi Kernel, Firmware dan file terkait sistem.
+**7 ./dev**
 
-4./sbin
+>Direktori /dev berisi file sistem dan driver yang penting.
 
-Berisi Sistem Binari yang penting dan alat Administrasi Sistem yang penting untuk operasi dan kinerja sistem
+**8 ./etc**
 
-5./bin
+>Direktori /etc berisi file konfigurasi Sistem yang penting termasuk /etc/hosts, /etc/resolv.conf, nsswitch.conf, default dan file konfigurasi jaringan. Ini sebagian besar file konfigurasi sistem dan aplikasi yang spesifik host.
 
-Berisi binari penting untuk pengguna dan utilitas yang dibutuhkan dalam mode pengguna tunggal. Contoh, termasuk cat, ls, cp dll.
+**9 ./home**
 
-6./lib
+>Semua direktori home pengguna disimpan di bawah direktori ini dengan pengecualian direktori home root yang disimpan di bawah direktori /root. Direktori ini menyimpan file pengguna, pengaturan pribadi seperti .profile dll.
 
-Berisi file pustaka untuk semua binari yang ada di direktori /sbin & /bin
+**10 ./media**
 
-7./dev
+>Titik kait generik untuk media yang dapat dilepas seperti CD-ROM, USB, Floppy dll
 
-Direktori /dev berisi file sistem dan driver yang penting.
+**11 ./mnt**
 
-8./etc
+>Titik kait generik untuk sistem file sementara. Ini berguna terutama ketika pemecahan masalah dari CDROM dll di mana Anda mungkin harus memasang sistem file Root dan mengedit konfigurasi.
 
-Direktori /etc berisi file konfigurasi Sistem yang penting termasuk /etc/hosts, /etc/resolv.conf, nsswitch.conf, default dan file konfigurasi jaringan. Ini sebagian besar file konfigurasi sistem dan aplikasi yang spesifik host.
+**12 ./opt**
 
-9./home
+>Direktori yang jarang digunakan di Linux untuk Paket Perangkat Lunak Opsional. Ini banyak digunakan di OS UNIX seperti Sun Solaris di mana paket perangkat lunak diinstal
 
-Semua direktori home pengguna disimpan di bawah direktori ini dengan pengecualian direktori home root yang disimpan di bawah direktori /root. Direktori ini menyimpan file pengguna, pengaturan pribadi seperti .profile dll.
+**13 ./usr**
 
-10./media
+>Sub hirarki ke sistem file root yang merupakan direktori data Pengguna. Berisi utilitas dan aplikasi spesifik pengguna. Anda akan melihat lagi banyak sistem file penting tetapi tidak kritis yang dipasang. Di sini Anda akan menemukan lagi direktori bin, sbin & lib yang berisi binari sistem dan pengguna non-kritis dan pustaka terkait dan direktori share1. Juga ditemukan di sini adalah direktori include dengan file include
 
-Titik kait generik untuk media yang dapat dilepas seperti CD-ROM, USB, Floppy dll
+**14 ./usr/sbin**
 
-11./mnt
+>Berisi binari sistem Non-esensial Non-kritis dan utilitas jaringan
 
-Titik kait generik untuk sistem file sementara. Ini berguna terutama ketika pemecahan masalah dari CDROM dll di mana Anda mungkin harus memasang sistem file Root dan mengedit konfigurasi.
+**15 ./usr/bin**
 
-12./opt
+>Berisi binari perintah Non-Esensial Non-kritis untuk pengguna.
 
-Direktori yang jarang digunakan di Linux untuk Paket Perangkat Lunak Opsional. Ini banyak digunakan di OS UNIX seperti Sun Solaris di mana paket perangkat lunak diinstal
+**16 ./usr/lib**
 
-13./usr
+>File pustaka untuk binari di direktori /usr/bin & /usr/sbin.
 
-Sub hirarki ke sistem file root yang merupakan direktori data Pengguna. Berisi utilitas dan aplikasi spesifik pengguna. Anda akan melihat lagi banyak sistem file penting tetapi tidak kritis yang dipasang. Di sini Anda akan menemukan lagi direktori bin, sbin & lib yang berisi binari sistem dan pengguna non-kritis dan pustaka terkait dan direktori share1. Juga ditemukan di sini adalah direktori include dengan file include
+**17 ./usr/share**
 
-14./usr/sbin
+>Direktori data bersama yang independen platform
 
-Berisi binari sistem Non-esensial Non-kritis dan utilitas jaringan
+**18 ./usr/local**
 
-15./usr/bin
+>Sub hirarki di bawah direktori /usr yang memiliki data spesifik Sistem Lokal termasuk binari sistem dan pengguna dan pustaka mereka
 
-Berisi binari perintah Non-Esensial Non-kritis untuk pengguna.
+**19 ./var**
 
-16./usr/lib
+>Direktori /var sebagian besar dipasang sebagai sistem file terpisah di bawah root di mana semua konten variabel seperti log, file spool untuk printer, crontab, pekerjaan at, mail, proses berjalan, file kunci dll. Harus berhati-hati dalam merencanakan sistem file ini dan pemeliharaannya karena ini bisa terisi dengan cepat dan ketika FileSystem penuh dapat menyebabkan masalah operasional sistem dan aplikasi.
 
-File pustaka untuk binari di direktori /usr/bin & /usr/sbin.
+**20 ./tmp**
 
-17./usr/share
+>Sistem file sementara yang menyimpan file sementara yang dibersihkan saat reboot sistem. Ada juga direktori /var/tmp yang menyimpan file sementara juga. satu-satunya perbedaan antara keduanya adalah direktori /var/tmp menyimpan file yang dilindungi saat reboot sistem. Dengan kata lain, file /var/tmp tidak dihapus saat reboot.
 
-Direktori data bersama yang independen platform
 
-18./usr/local
+## Directory File Linux yang terinstalasi
 
-Sub hirarki di bawah direktori /usr yang memiliki data spesifik Sistem Lokal termasuk binari sistem dan pengguna dan pustaka mereka
+![alt text](./img/directorylinux.png)
 
-19./var
+# (Soal 2) [MARP Presentation](/assets/2_Slide_SystemAdministrasi.md)
 
-Direktori /var sebagian besar dipasang sebagai sistem file terpisah di bawah root di mana semua konten variabel seperti log, file spool untuk printer, crontab, pekerjaan at, mail, proses berjalan, file kunci dll. Harus berhati-hati dalam merencanakan sistem file ini dan pemeliharaannya karena ini bisa terisi dengan cepat dan ketika FileSystem penuh dapat menyebabkan masalah operasional sistem dan aplikasi.
 
-20./tmp
+## (Soal 3) Mengubah IP Address secara manual
 
-Sistem file sementara yang menyimpan file sementara yang dibersihkan saat reboot sistem. Ada juga direktori /var/tmp yang menyimpan file sementara juga. satu-satunya perbedaan antara keduanya adalah direktori /var/tmp menyimpan file yang dilindungi saat reboot sistem. Dengan kata lain, file /var/tmp tidak dihapus saat reboot.
+**Langkah Pertama: Cek IP laptop** > dengan $ ipaddr
+![alt text](./img/ip_addr.png)
 
+**Langkah Kedua: Masuk root untuk mengecek rute dari IP**
+![alt text](./img/route-n.png)
 
-Directory File Linux
+**Langkah Ketiga: Cek dhcp Client**
+![alt text](./img/dhclient.png)
 
 
-![alt text](img/directorylinux.png)
+**Langkah Keempat:Cek untuk browser sebelum diset Ip nya secara manual**
+![alt text](./img/tesbefore.png)
 
-3.Menguubah IP Address secara manual
+**Langkah Kelima: Pergi ke Wired Setting**
+![alt text](./img/settingwired.png)
 
-Langkah Pertama: Cek IP laptop dengan ip addr
-![alt text](img/ip_addr.png)
-
-Langkah Kedua: masuk root untuk mengecek rute dari IP
-![alt text](img/route-n.png)
-
-Langkah Ketiga:Cek dhcp Client
-![alt text](img/dhclient.png)
-
-
-Langkah Keempat:Cek untuk browser sebelum diset Ip nya secara manual
-![alt text](img/tesbefore.png)
-
-Langkah Kelima: Pergi ke Wired Setting
-![alt text](img/settingwired.png)
-
-Langkah Keenam: Setting IPv4 secara manual
-![alt text](img/setting_address.png)
+**Langkah Keenam: Setting IPv4 secara manual**
+![alt text](./img/setting_address.png)
 
 Selesai
