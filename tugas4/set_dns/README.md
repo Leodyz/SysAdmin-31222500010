@@ -107,6 +107,6 @@ Berdasarkan referensi [Penjelasan DNS](https://www.hostinger.co.uk/tutorials/wha
 
 16. Gunakan perintah nslookup apakah berhasil atau tidak
     ![nslookup ns.kelompok8.local](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/16.nslookup%20nskelompok8local.png)
-    ![nslookup_leo](./assets/nslookup_aing)
+    ![nslookup_leo](https://github.com/Leodyz/W-A-J/blob/main/tugas4/set_dns/assets/nslookup_aing.png)
 
 
