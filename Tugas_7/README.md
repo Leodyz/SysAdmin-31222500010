@@ -194,7 +194,7 @@ sh -c "yarn install && yarn run dev": Perintah ini memulai sebuah shell (sh) di 
 
 **1. menghubungkan ke nikolaka/netshoot**
 
-![Multi-Container Apps](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/6-5_mencobamasukkenikolakanetshoot.jpg)
+![Multi-Container Apps](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/6-5_mencobamasukkenicolakanetshoot.jpg)
 
 **2. dig mysql**
 
