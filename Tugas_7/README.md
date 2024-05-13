@@ -35,7 +35,7 @@
 
 **4. docker run**
 
-![Docker run](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/1-5_drun3000.jpg)
+![Docker run](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/1-5_Drun3000.jpg)
 
 **5. Di cek**
 
