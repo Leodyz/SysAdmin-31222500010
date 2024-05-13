@@ -217,7 +217,7 @@ sh -c "yarn install && yarn run dev": Perintah ini memulai sebuah shell (sh) di 
 
 **2. Isi Docker-compose.yml**
 
-![Multi-Container Apps](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/7-2_isi-Script.jpg)
+![Multi-Container Apps](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/7-2_isi.jpg)
 
 **3. Docker compose**
 
