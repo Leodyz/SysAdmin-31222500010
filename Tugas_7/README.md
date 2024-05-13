@@ -16,9 +16,9 @@
 6. [Container Networking](#container-networking-multi-container-apps)
 7. [Installing Docker compose](#installing-docker-compose-using-docker-compose)
 
-
+<br><br><br><br>
 ## getting App into PWD (Our Application)
-
+<br><br>
 **1. Download Zip (app.zip) drag n Drop dan Unzip**
 
 ![Unzip](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/1-1_unzip_app-zip.jpg)
@@ -40,9 +40,9 @@
 **5. Di cek**
 
 ![check](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/1-6_check.jpg)
-
+<br><br><br>
 ## Updating Source Code (Updating Our Application)
-
+<br><br>
 **1. masuk Ke editor**
 
 ![Editor](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/2-1_editor.jpg)
@@ -66,9 +66,9 @@
 **5. Hasil**
 
 ![DrunError](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/2-5_hasil.jpg)
-
+<br><br><br>
 ## Creating a repo (Sharing Our Application)
-
+<br><br>
 **1. masuk ke Dockerhub di Repository dan Create Repository**
 
 ![Create](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/3-1_create.jpg)
@@ -92,9 +92,9 @@
 
 ![Run](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/3-5_dockerRun(restartdlu).jpg)
 
-  
+  <br><br><br>
 ## Contain FileSystem (persisting our DB)
-
+<br><br>
 **1. masuk ke Dockerhub di Repository dan Create Repository**
 
 ![RunUbuntu](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/4-1_DrunUbuntu.jpg)
@@ -110,9 +110,9 @@
 **4. lakukan Docker rm -f <id>**
 
 ![RunUbuntu](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/4-4_Rmcontainer.jpg)
-
+<br><br>
 **Menggunakan Volume Create**
-
+<br><br>
 **1. Volume Create**
 
 ![VolumeCreate](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/4-5_volumecreate.jpg)
@@ -129,11 +129,11 @@
 
 ![VolumeCreate](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/4-8_jalankanlagi.jpg)
 
-
+<br><br><br>
 ## Quick Volume Type Comparison (Using Bind Mounts)
-
+<br><br>
 **STARTING DEV-MODE CONTAINER**
-
+<br>
 **1. pastikan semua docker-101 telah nonaktif**
 
 ![QuickVolume](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/5-1_mematikanDocker-101.jpg)
@@ -167,11 +167,11 @@ sh -c "yarn install && yarn run dev": Perintah ini memulai sebuah shell (sh) di 
 
 *Feel free to make any other changes you'd like to make. When you're done, stop the container and build your new image using docker build -t docker-101 .
 
-
+<br><br><br>
 ## Container Networking (Multi-Container Apps)
-
+<br><br>
 **Starting A SQL**
-
+<br>
 **1. create TODO app**
 
 ![Multi-Container Apps](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/6-1_networkCreate.jpg)
@@ -189,9 +189,9 @@ sh -c "yarn install && yarn run dev": Perintah ini memulai sebuah shell (sh) di 
 ![Multi-Container Apps](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/6-4_showdatabase.jpg)
 
 
-
+<br><br>
 **Connecting To MYSQl**
-
+<br>
 **1. menghubungkan ke nikolaka/netshoot**
 
 ![Multi-Container Apps](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/6-5_mencobamasukkenicolakanetshoot.jpg)
@@ -208,9 +208,9 @@ sh -c "yarn install && yarn run dev": Perintah ini memulai sebuah shell (sh) di 
 ![Multi-Container Apps](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/6-7_lihat-isi-item.jpg)
 
 
-
+<br><br><br>
 ## Installing Docker Compose (Using Docker Compose)
-
+<br><br>
 **1. melihat isi docker version dan membuat file Docker-compose.yml**
 
 ![Multi-Container Apps](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/7-1_Dockerver.jpg)
