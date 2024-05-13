@@ -45,11 +45,11 @@
 
 **1. masuk Ke editor**
 
-![Editor](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/1_editor.jpg)
+![Editor](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/2-1_editor.jpg)
 
-![before](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/1_sebelum.jpg)
+![before](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/2-1_sebelum.jpg)
 
-![after](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/1_sesudah.jpg)
+![after](https://github.com/Leodyz/W-A-J/blob/main/Tugas_7/assets/2-1_sesudah.jpg)
 
 **2. docker build**
 
