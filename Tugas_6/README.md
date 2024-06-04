@@ -4,7 +4,7 @@
 
 | NAMA | NRP |
 | ---- | --- |
-| [Adam Rasyid Nurmuhammad](https://github.com/adamrasyid01)| 3122500018 | 
+| [Leody Zelvon Herliansa](https://github.com/Leodyz/SysAdmin-31222500010)| 3122500010 | 
 
 **DAFTAR ISI**
 
@@ -15,7 +15,7 @@
 
 
 # 1. Web Server
-![Gambar Web Server](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/Web%20Server.drawio.png)
+![Gambar Web Server](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/Web%20Server.drawio.png)
 
 Web server adalah aplikasi perangkat lunak atau perangkat keras yang menyimpan, memproses, dan melayani konten web kepada pengguna melalui internet. Web server memainkan peran penting dalam model klien-server dari World Wide Web, di mana klien (biasanya browser web) meminta halaman web dan sumber daya, dan server merespons permintaan ini dengan mengirimkan konten yang diminta.
 
@@ -30,7 +30,7 @@ Proses yang terjadi di server web
 
 # 2. Web Browser Architecture
 
-![Gambar Web Browser](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/Web%20Browser.drawio.png)
+![Gambar Web Browser](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/Web%20Browser.drawio.pngw)
 
 The user interface: Antarmuka pengguna browser dirancang agar memungkinkan personalisasi, karena setiap individu memiliki minat yang berbeda. Personalisasi ini dicapai dengan menyediakan fitur dasar seperti grup, koleksi, bookmark, dan tema. Setiap browser dapat memiliki antarmuka pengguna dan fitur yang berbeda.
 
@@ -53,62 +53,53 @@ Langkah-langkah
 1. Pemasang Docker di Debian vmBox
 Hapus paket-paket terkait Docker bawaan !
 
-![for apt ](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/1.%20for%20docker.png)
+![for apt ](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/1.%20for%20docker.png)
 
 2. Lakukan Update/Upgrade Repository dan tambahkan Docker's official GPG key:
 
-![apt-get update](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/2.%20apt%20get%20update.png)
+![apt-get update](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/2.%20apt%20get%20update.png)
 
-![curl](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/3.install%20certificates%20curl.png)
+![curl](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/3.install%20certificates%20curl.png)
 
-![keyrings](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/4.keyrings.png)
+![keyrings](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/4.keyrings.png)
 
-![fsSL](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/5.%20curl%20fsSL.png)
+![fsSL](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/5.png)
 
-![chmod a+r](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/6.chmod%20a%2Br.png)
 
-![echo panjang](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/7.echo%20puanjangg.png)
 
 3. Install DOCKER OFFICIAL PACKAGE
 
-![Docker Package](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/8.%20install%20docker%20packages.png)
+![Docker Package](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/6.png)
+
+
 
 4. Apabila Docker Sudah Terpasang, Coba jalankan Hello World
 
-![Hello World](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/9.docker%20run%20hello%20world.png)
+![Hello World](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/7.png)
+
+
 
 ## 3.1 Membuat Docker Image
 
 1. Buat File dengan Konfigurasi Berikut Buat file bernama Dockerfile
 
-![mynginx directory](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/10.%20membuat%20directory%20mynginx.png)
-
-    > from nginx:alpine
-
-    > COPY index.html /usr/share/nginx/html
-    EXPOSE 80
-   
-    >CMD ["nginx", "-g", "daemon off;"]
-
-![isi Dockerfile](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/11.isi%20didalam%20Dockerfile.png)
-
-![Tulis Echo ](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/12.tulis%20echo%20Hello%20C307.png)
+![mynginx directory](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/8.png)
 
 2. Build Ke dalam Docker IMAGES
 
     > sudo docker build -t contoh .
 
-![Build](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/13.%20build%20ke%20dalam%20Docker%20IMAGES.png)
+![Build](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/9.png)
 
 3. Jalankan DOCKER IMAGES
 
-    >  sudo docker run -d -p 8080:80 contoh
+    >  sudo docker run -d -p [port] contoh
 
-![Port 8080](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/14.%20docker%20run%20port%208080.png)
+![Port 8080](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/10.dockerrun.png)
 
-4. Berhasil!, akses port 8080
+4. Berhasil!, akses port (saya 3000)
 
-![Run di browser](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/15.berhasil%20port%208080.png)
+![Run di browser](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/11_dockerrun.png)
 
 
 # 4. Apache2 + Dns Resolver + Docker Uptime Kuma Package
@@ -119,19 +110,18 @@ Langkah-langkah:
 
     > git clone https://github.com/louislam/uptime-kuma.git
 
+![clonerepo](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/12.cloneKUMARepo.png)
+
     > cd uptime-kuma
 
 2. Lalu Jalankan dengan cara berikut
 
-    >  sudo docker compose up
+   ![run](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/13.RunKumaREpo.png)
 
-3. Cek running container dan pastikan berjalan
-
-![Running uptime kuma](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/16.%20sudo%20docker%20ps-a.png)
 
 4. Cek pada browser dengan port yaitu 3001
 
-![Running pada port 3001](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/17.%20running%20uptime%20kuma.png)
+![Running pada port 3001](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/14.%20running%20uptime%20kuma.png)
 
 TASK
 
@@ -143,7 +133,7 @@ Lalu Bagaimana jika menggunakan url monitoring.kelompok8.local ?
 
     sudo sytemctl restart named
 
-![konfigurasi file db.kelompok8.local](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/18.%20tambahkan%20monitoring%20di%20db.kelompok8.local.png)
+![konfigurasi file db.kelompok8.local](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/15.%20tambahkan%20monitoring%20di%20db.kelompok8.local.png)
 
 2. Untuk melakukan pointing ke domain localhost kita, kita gunakan ReverseProxy pada Apache2 Kita ( a2enmod )
 
@@ -154,18 +144,18 @@ Install Beberapa Package Berikut dengan menjalankan perintah berikut:
 
 Masukkan Package berikut "proxy proxy_ajp proxy_http rewrite deflate headers proxy_balancer proxy_connect proxy_html"
 
-![proxy-proxy](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/19.%20package%20yang%20proxy2.png)
+![proxy-proxy](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/16.%20package%20yang%20proxy2.png)
 
 3. Lakukan Konfigurasi pada Apache2 Kita
 
 > /etc/apache2/sites-enabled/000-default.conf
 
-![sudo](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/20.%20setting%20enabled.png)
+![sudo](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/17.%20setting%20enabled.png)
 
 Tambahkan baris berikut untuk monitoring subdomain
 
-![Baris monitoring](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/21.%20tambah%20baris%20monitoring.png)
+![Baris monitoring](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/18.%20tambah%20baris%20monitoring.png)
 
 
 Berhasil tes monitoring.kelompok8.local
-![Running di web](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_6/assets/22.test%20di%20web.png)
+![Running di web](https://github.com/Leodyz/SysAdmin-31222500010/blob/main/Tugas_6/assets/19.test%20di%20web.png)
